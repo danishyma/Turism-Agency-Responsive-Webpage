@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#875690">
+    <title>Exemplo Turismo | Sobre</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/sobre.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <div class="container"> 
+
+      <nav role="navigation" class="nav"> 
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#top" role="logo"><i class="fab fa-slack"></i></a></li>
+          <li class="nav__item menu"><a href="index.html">Home</a></li>
+          <li class="nav__item menu"><a class="passagens" href="index.html#passagens">Passagens</a></li>
+          <li class="nav__item menu"><a class="hospedagem" href="index.html#hospedagem">Hospedagem</a> </li>
+          <li class="nav__item menu"><a class="seguro" href="index.html#seguro">Seguro Viagem</a></li>
+          <li class="nav__item menu"><a class="consultoria" href="index.html#consultoria">Consultoria</a></li>
+          <li class="nav__item"><button class="btn-primary">Cotações</button></li>
+          <li class="icon">
+            <div id="menu-toggle" class="menu-icon">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      
+      <header>
+        <div class="header-wrapp"> 
+          <div class="about">
+            <h2>NOSSA HISTORIA</h2>
+        	  <p>Começamos a nossa jornada em 2010, quando recebemos uma proposta para morar em <em class="text-highlight">Lisboa, Portugal</em> e amamos tanto que nunca fomos embora.</p>
+        	  <p>Como nem tudo são flores, depois de muita aprendizagem decidimos abrir nossa agência de viagens para dar apoio aos que estão vindo e podem se beneficiar da nossa experiência.</p>
+        	  <p>Atualmente contamos com apoio em diversas áreas além de diversas dicas disponíveis em nosso <em class="text-highlight">canal do Youtube</em>, nos siga lá para ficar 100% informado.</p>
+        	</div>
+        	<div class="youtube">
+            <h2>CANAL DO YOUTUBE</h2>
+        	  <div class="video-container">
+        	    <div class="video-wrapper">
+        	     <iframe width="560" height="315" src="https://www.youtube.com/embed/b83yjWKpMOs?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        	    </div>
+        	  </div>
+        	</div>
+        </div>
+      </header>
+
+      <main>
+        <h2>NOSSA EQUIPE</h2>
+
+        <div class="row">
+
+          <div class="column">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2014/04/26/04/25/woman-332278_1280.jpg" alt="Jane">
+              <div class="team-wrapp">
+                <h4>Jane Doe</h4>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <a href="mailto:example@example.com" class="email"><i class="far fa-envelope"></i></a>
+                <a href="#" target="_blank" class="icon-button instagram"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2017/09/01/21/53/blue-2705642_1280.jpg" alt="Kate">
+              <div class="team-wrapp">
+                <h4>Kate Ross</h4>
+                <p class="title">Art Director</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <a href="mailto:example@example.com" class="email"><i class="far fa-envelope"></i></a>
+                <a href="#" target="_blank" class="icon-button instagram"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </main>
+
+      <footer>
+
+        <div id="content2">
+          <h3>O QUE OS NOSSOS CLIENTES DIZEM</h3>
+  
+          <div class="slideshow-container">
+  
+            <div class="testimonials fade">
+              <div class="text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</div>
+              <div class="name">Kristi McSweeney <br> Austin selvage beard </div>
+            </div>
+            
+            <div class="testimonials fade">
+              <div class="text">“Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora .”</div>
+              <div class="name">Kristi McSweeney <br> Austin selvage beard </div>
+            </div>
+            
+            <div class="testimonials fade">
+              <div class="text">“Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in.”</div>
+              <div class="name">Kristi McSweeney <br> Austin selvage beard </div>
+            </div>
+  
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+            
+            <div>
+              <div class="dot" id="0"></div> 
+              <div class="dot" id="1"></div> 
+              <div class="dot" id="2"></div> 
+            </div>
+  
+          </div>
+  
+        </div>
+
+          <form>
+            <h3>INSCREVA-SE</h3>
+              <label for="name">Nome:</label>
+              <input id="name" class="field" name="name" placeholder="Nome" minlength="5" required 
+              oninvalid="this.setCustomValidity('Preencha seu nome corretamente')"
+              oninput="this.setCustomValidity('')" > 
+            
+              <label for="e-mail">E-mail:</label>
+              <input id="e-mail" class="field" name="email" placeholder="E-mail*" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required
+              oninvalid="this.setCustomValidity('Preencha seu e-mail corretamente. Exemplo: nome@gmail.com')"
+              oninput="this.setCustomValidity('')">
+            
+              <input type="submit" value="ENIVAR" id="entry__btn"></input>
+            </form>
+          <ul class="social icons">
+            <li><a href="#" target="_blank" class="icon-button whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="#" target="_blank" class="icon-button facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" target="_blank" class="icon-button youtube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#" target="_blank" class="icon-button instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank" class="icon-button messegner"><i class="fab fa-facebook-messenger"></i></a></li>
+          </ul>
+          <p>© 2020 por EXEMPLO TURISMO<br>CNPJ: XX.XXX.XXX/XXXX-XX<br></p>
+          <p class="smaller">© Copyright Exemplo Turismo</p>
+        
+      </footer>
+        
+      <button onclick="topFunction()" id="scroll_top" title="Top"><i class="fas fa-chevron-up"></i></button>
+  
+    </div>
+  
+      <script type="text/javascript"  src="js/javascript.js"></script>
+    </body>
+  </html>
